@@ -21,13 +21,7 @@ namespace AuthorizationOddskingPageTests.tests
 
         string accountNumber = mainMenu.GetAccountNumber();
 
-
             Assert.That(accountNumber, Is.EqualTo(accountNumber), "Login unsuccessful");
-
-            
-            //            var actualLogin = driver.FindElement(_accountNumber).Text;
-            //            Thread.Sleep(1000);
-            //            Assert.AreEqual(_expectedLogin, actualLogin, "Login unsuccessful");
         }
     }
 }
