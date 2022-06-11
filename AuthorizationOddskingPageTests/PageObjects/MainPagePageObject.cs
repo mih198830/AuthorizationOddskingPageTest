@@ -41,7 +41,6 @@ namespace AuthorizationOddskingPageTests.PageObjects
             Thread.Sleep(400);
             string accountNumber = _webDriver.FindElement(_accountNumber).Text;
             return accountNumber;
-            Console.WriteLine(accountNumber);
         }
     }
 }

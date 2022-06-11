@@ -1,6 +1,5 @@
 using AuthorizationOddskingPageTests.PageObjects;
 using AuthorizationOddskingPageTests.Tests;
-using OpenQA.Selenium;
 
 namespace AuthorizationOddskingPageTests.tests
 {
