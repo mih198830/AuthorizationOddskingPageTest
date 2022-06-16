@@ -11,11 +11,7 @@ namespace AuthorizationOddskingPageTests
         {
             _webDriver = new ChromeDriver();
         }
-        [OneTimeTearDown]
-        protected void DoAfterAllTheTests()
-        {
 
-        }
         [TearDown]
         protected void DoAfterEach()
         {
@@ -29,5 +25,4 @@ namespace AuthorizationOddskingPageTests
             _webDriver.Manage().Window.Maximize();
         }
     }
-    
 }
